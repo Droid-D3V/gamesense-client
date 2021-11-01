@@ -15,7 +15,7 @@ import org.lwjgl.input.Keyboard;
 
 import java.util.Arrays;
 
-@Module.Declaration(name = "ClickGUI", category = Category.GUI, bind = Keyboard.KEY_O, drawn = false)
+@Module.Declaration(name = "ClickGUI", category = Category.GUI, bind = Keyboard.KEY_RSHIFT, drawn = false)
 public class ClickGuiModule extends Module {
 
     public IntegerSetting opacity = registerInteger("Opacity", 150, 50, 255);

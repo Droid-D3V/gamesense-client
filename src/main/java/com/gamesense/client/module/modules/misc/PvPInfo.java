@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
  * @src https://github.com/DarkiBoi/CliNet/blob/master/src/main/java/me/zeroeightsix/kami/module/modules/combat/TotemPopCounter.java
  **/
 
-@Module.Declaration(name = "PvPInfo", category = Category.Misc)
+@Module.Declaration(name = "TargetHUD", category = Category.Misc)
 public class PvPInfo extends Module {
 
     BooleanSetting visualRange = registerBoolean("Visual Range", false);

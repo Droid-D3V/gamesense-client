@@ -8,7 +8,7 @@ import com.gamesense.client.module.ModuleManager;
 import com.gamesense.client.module.modules.misc.Announcer;
 import org.lwjgl.input.Keyboard;
 
-@Module.Declaration(name = "HudEditor", category = Category.GUI, bind = Keyboard.KEY_P, drawn = false)
+@Module.Declaration(name = "HudEditor", category = Category.GUI, bind = Keyboard.KEY_ENTER, drawn = false)
 public class HUDEditor extends Module {
 
     public void onEnable() {

@@ -23,9 +23,9 @@ import java.awt.*;
 @Mod(modid = GameSense.MODID, name = GameSense.MODNAME, version = GameSense.MODVER)
 public class GameSense {
 
-    public static final String MODNAME = "GameSense";
-    public static final String MODID = "gamesense";
-    public static final String MODVER = "v2.3.0";
+    public static final String MODNAME = "GameSense+2";
+    public static final String MODID = "gamesense2";
+    public static final String MODVER = "d1.0.2";
     /**
      * Official release starts with a "v", dev versions start with a "d" to bypass version check
      */

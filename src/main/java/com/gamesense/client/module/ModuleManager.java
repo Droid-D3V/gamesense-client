@@ -29,6 +29,7 @@ public class ModuleManager {
         addMod(new AutoTrap());
         addMod(new AutoWeb());
         addMod(new BedAura());
+        addMod(new BlockerCC());
         addMod(new Blocker());
         addMod(new CevBreaker());
         addMod(new FastBow());
